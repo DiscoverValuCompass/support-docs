@@ -10,5 +10,5 @@ Start here:
 
 - [Getting Started](getting-started)
 - [Reset Password](account/reset-password)
-- [Troubleshooting](troubleshooting/common-errors)
+- [Common Errors](troubleshooting/common-errors)
 - [FAQ](faq)
