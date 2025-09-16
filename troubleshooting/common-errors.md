@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Common Errors
-nav_order: 1
 parent: Troubleshooting
+nav_order: 1
 ---
 
 Error 102: ...
