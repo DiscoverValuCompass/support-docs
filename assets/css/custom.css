@@ -18,14 +18,23 @@
   }
 }
 
-/* Keep the logo inside the sidebar */
+/* Ensure the logo displays and fits inside the sidebar */
 .side-bar .site-title img,
+.side-title .site-logo,
 .site-title .site-logo {
-  max-width: calc(var(--vc-nav, 248px) - 60px);
-  width: 100%;
-  height: auto;
   display: block;
+  max-width: 180px;   /* adjust if your sidebar is narrower */
+  max-height: 48px;   /* keeps header tidy */
+  width: auto;
+  height: auto;
 }
+
+/* Don't clip the header area containing the logo */
+.side-bar,
+.side-bar .site-title {
+  overflow: visible;
+}
+
 
 /* Optional: tighten sidebar padding a bit */
 .side-bar .site-title,
