@@ -1,8 +1,14 @@
+---
+layout: home
+title: Welcome
+nav_order: 1
+---
+
 # ValuCompass Support
 
-Welcome to the ValuCompass Support Center.  
-Use the navigation to find answers or start with these common topics:
+Start here:
 
-- [Getting Started](getting-started.md)
-- [Resetting Your Password](reset-password.md)
-- [FAQ](faq.md)
+- [Getting Started](/getting-started)
+- [Reset Password](/account/reset-password)
+- [Troubleshooting](/troubleshooting/common-errors)
+- [FAQ](/faq)
