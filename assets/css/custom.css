@@ -1,0 +1,13 @@
+/* Tighten left padding inside the sidebar */
+.side-bar .site-title,
+.side-bar .site-nav,
+.side-bar .site-footer {
+  padding-left: 0.75rem;    /* default is roomier; try 0.5–0.75rem */
+  padding-right: 0.75rem;
+}
+
+/* Tighter list indentation in the nav */
+.nav-list,
+.nav-list .nav-list-item > .nav-list-link {
+  padding-left: 0.5rem;
+}
