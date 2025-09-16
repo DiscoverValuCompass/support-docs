@@ -1,25 +1,37 @@
-/* Desktop layout */
+/* ---- Desktop only (JTD breakpoint) ---- */
 @media (min-width: 66.5rem) {
-  /* Set ONE width and use it everywhere */
-  :root { --vc-nav: 260px; }   /* pick 240–270px to taste */
+  /* Use one variable for both sidebar width and main offset */
+  :root { --vc-nav: 248px; }  /* adjust to 240–260 to taste */
 
-  .side-bar { width: var(--vc-nav) !important; }
-  .main     { margin-left: var(--vc-nav) !important; }
+  /* Make sidebar exactly --vc-nav wide */
+  html body .side-bar {
+    width: var(--vc-nav) !important;
+    flex: 0 0 var(--vc-nav) !important; /* if flex is used */
+    overflow: hidden;
+  }
 
-  /* Keep sidebar contents inside */
-  .side-bar { overflow: hidden; }
+  /* Offset main content by the same width */
+  html body .main {
+    margin-left: var(--vc-nav) !important;
+    position: relative;
+    z-index: 0;
+  }
 }
 
-/* Logo sizing so it doesn't push layout */
+/* Keep the logo inside the sidebar */
 .side-bar .site-title img,
 .site-title .site-logo {
-  max-width: calc(var(--vc-nav) - 60px); /* leaves padding room */
+  max-width: calc(var(--vc-nav, 248px) - 60px);
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Optional: slightly wider reading column */
-@media (min-width: 66.5rem) {
-  .main .page { max-width: 58rem; }
+/* Optional: tighten sidebar padding a bit */
+.side-bar .site-title,
+.side-bar .site-nav,
+.side-bar .site-footer {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
+
