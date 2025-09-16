@@ -4,10 +4,7 @@ description: Help articles for ValuCompass
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag
 
-# Optional polish
-# logo: /assets/images/logo.png
+# optional, but safe:
 search_enabled: true
-color_scheme: default
 
