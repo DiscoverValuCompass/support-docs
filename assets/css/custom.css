@@ -1,20 +1,25 @@
-/* Sidebar narrower + content shifted */
+/* Desktop layout */
 @media (min-width: 66.5rem) {
-  .side-bar { width: 220px !important; }
-  .main     { margin-left: 220px !important; }
+  /* Set ONE width and use it everywhere */
+  :root { --vc-nav: 260px; }   /* pick 240–270px to taste */
+
+  .side-bar { width: var(--vc-nav) !important; }
+  .main     { margin-left: var(--vc-nav) !important; }
+
+  /* Keep sidebar contents inside */
+  .side-bar { overflow: hidden; }
 }
 
-/* Tighter padding inside sidebar */
-.side-bar .site-title,
-.side-bar .site-nav,
-.side-bar .site-footer {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+/* Logo sizing so it doesn't push layout */
+.side-bar .site-title img,
+.site-title .site-logo {
+  max-width: calc(var(--vc-nav) - 60px); /* leaves padding room */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Tighter nav list indentation */
-.nav-list,
-.nav-list .nav-list-item > .nav-list-link {
-  padding-left: 0.5rem;
+/* Optional: slightly wider reading column */
+@media (min-width: 66.5rem) {
+  .main .page { max-width: 58rem; }
 }
-
