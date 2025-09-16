@@ -1,0 +1,11 @@
+title: ValuCompass Support
+description: Help articles for ValuCompass
+remote_theme: just-the-docs/just-the-docs
+
+# Optional polish
+# logo: /assets/images/logo.png
+color_scheme: default   # or dark, custom
+search_enabled: true
+aux_links:
+  ValuCompass Home:
+    - https://valucompass.com
