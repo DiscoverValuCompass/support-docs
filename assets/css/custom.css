@@ -1,43 +1,39 @@
 /* ---- Desktop only (JTD breakpoint) ---- */
 @media (min-width: 66.5rem) {
-  /* Use one variable for both sidebar width and main offset */
-  :root { --vc-nav: 248px; }  /* adjust to 240–260 to taste */
+  /* Single variable for sidebar + margin */
+  :root { --vc-nav: 248px; }  /* adjust to 240–260 as needed */
 
-  /* Make sidebar exactly --vc-nav wide */
-  html body .side-bar {
+  /* Sidebar width */
+  .side-bar {
     width: var(--vc-nav) !important;
-    flex: 0 0 var(--vc-nav) !important; /* if flex is used */
-    overflow: hidden;
+    flex: 0 0 var(--vc-nav) !important; /* supports flex layouts */
+    overflow: visible !important;       /* don't clip logo/header */
   }
 
-  /* Offset main content by the same width */
-  html body .main {
+  /* Main content offset */
+  .main {
     margin-left: var(--vc-nav) !important;
     position: relative;
     z-index: 0;
   }
 }
 
-/* Ensure the logo displays and fits inside the sidebar */
-.side-bar .site-title img,
-.side-title .site-logo,
-.site-title .site-logo {
-  display: block;
-  max-width: 180px;   /* adjust if your sidebar is narrower */
-  max-height: 48px;   /* keeps header tidy */
-  width: auto;
-  height: auto;
-}
-
-/* Don't clip the header area containing the logo */
-.side-bar,
+/* --- Logo fixes --- */
 .side-bar .site-title {
-  overflow: visible;
+  padding: 0.75rem 1rem !important; /* safe padding around logo */
+  min-height: 3rem;                 /* keeps area from collapsing */
 }
 
+.side-bar .site-title img,
+.side-bar .site-title .site-logo {
+  display: block !important;
+  max-width: 180px !important;   /* scale logo inside sidebar */
+  max-height: 48px !important;
+  width: auto !important;
+  height: auto !important;
+}
 
-/* Optional: tighten sidebar padding a bit */
-.side-bar .site-title,
+/* --- Sidebar padding tweaks --- */
 .side-bar .site-nav,
 .side-bar .site-footer {
   padding-left: 0.75rem;
