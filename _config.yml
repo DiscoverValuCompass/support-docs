@@ -12,3 +12,6 @@ search_enabled: true
 url: "https://discovervalucompass.github.io"
 baseurl: /support-docs
 
+just_the_docs:
+  css:
+    - "/assets/css/custom.css"
