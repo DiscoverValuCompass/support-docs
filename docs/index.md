@@ -8,7 +8,7 @@ nav_order: 1
 
 Start here:
 
-- [Getting Started](getting-started)
-- [Reset Password](account/reset-password)
-- [Common Errors](troubleshooting/common-errors)
-- [FAQ](faq)
+- [Getting Started]({{ site.baseurl }}/getting-started/)
+- [Reset Password]({{ site.baseurl }}/account/reset-password)
+- [Common Errors]({{ site.baseurl }}/troubleshooting/common-errors)
+- [FAQ]({{ site.baseurl }}/faq)
