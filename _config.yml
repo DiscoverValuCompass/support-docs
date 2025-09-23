@@ -9,4 +9,6 @@ logo: /assets/images/logo.webp
 # optional, but safe:
 search_enabled: true
 
+url: "https://discovervalucompass.github.io"
 baseurl: /support-docs
+
