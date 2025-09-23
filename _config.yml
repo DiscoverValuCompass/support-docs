@@ -9,3 +9,4 @@ logo: /assets/images/logo.webp
 # optional, but safe:
 search_enabled: true
 
+baseurl: /support-docs
