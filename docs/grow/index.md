@@ -1,9 +1,7 @@
 ---
 title: Grow
-nav_order: 50
+nav_order: 30
 has_children: true
 ---
 
 # Grow
-
-Section landing content goes here.

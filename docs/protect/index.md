@@ -1,9 +1,7 @@
 ---
 title: Protect
-nav_order: 30
+nav_order: 10
 has_children: true
 ---
 
 # Protect
-
-Section landing content goes here.
