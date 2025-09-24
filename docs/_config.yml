@@ -1,0 +1,15 @@
+title: ValuCompass Support
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""      # everything under /docs (your build root)
+      type: "pages"
+    values:
+      layout: "default"
+
+search_enabled: true
