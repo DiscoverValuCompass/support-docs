@@ -1,6 +1,7 @@
 ---
 layout: home
-title: ValuCompass Support
+title: Home
+nav_order: 1
 ---
 
 # Welcome to ValuCompass Support
