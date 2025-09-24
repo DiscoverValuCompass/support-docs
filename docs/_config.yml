@@ -13,3 +13,6 @@ defaults:
       layout: "default"
 
 search_enabled: true
+
+url: https://discovervalucompass.github.io
+baseurl: /support-docs
