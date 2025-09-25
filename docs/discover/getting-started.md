@@ -9,7 +9,7 @@ Before you begin a Discover Assessment, make sure you have the basic information
 
 It’s highly recommended that you complete the assessment _with the business owner or prospect_. Doing it together not only speeds things up but also creates trust and context for the results.
 
-{: .note }
+{:.note }
 > It’s highly recommended to complete the assessment *with the business owner or prospect*.
 >
 > Doing it together speeds things up and builds trust.
@@ -27,7 +27,7 @@ At a minimum, you’ll need these details:
 - **Annual Revenue**
 - **Annual Profits (EBITDA)**
 
-{: .note}
+{:.note}
 > You can pre-populate certain fields before running the assessment.
 
 ## Helpful to Have
