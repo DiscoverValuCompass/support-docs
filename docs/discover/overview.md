@@ -6,7 +6,7 @@ nav_order: 10
 
 # Discover Overview
 
-The **Discover Assessment** is a fast, structured way to understand a business. In just 15–20 minutes, it looks at a company across [**18 Value Drivers**]({% link docs/key-lessons/18-value-drivers.md %}) and compares the results to decades of proven benchmarks.
+The **Discover Assessment** is a fast, structured way to understand a business. In just 15–20 minutes, it looks at a company across [**18 Value Drivers**]({% link key-lessons/18-value-drivers.md %}) and compares the results to decades of proven benchmarks.
 
 The outcome is a clear report that shows what the business is worth today, what it could be worth, and the steps needed to close that gap. Along the way, it highlights risks to address and opportunities to pursue.
 
