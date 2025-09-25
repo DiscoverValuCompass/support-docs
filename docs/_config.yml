@@ -20,7 +20,7 @@ search_enabled: true
 url: https://discovervalucompass.github.io
 baseurl: /support-docs
 
-logo: /assets/images/blue_logo.png
+logo: /assets/images/VC_logo_lg.webp
 
 #adding kramdown-parser to enable admonitions
 callouts_level: quiet
