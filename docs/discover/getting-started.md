@@ -9,9 +9,6 @@ Before you begin a Discover Assessment, make sure you have the basic information
 
 It’s highly recommended that you complete the assessment _with the business owner or prospect_. Doing it together not only speeds things up but also creates trust and context for the results.
 
-> **Tip:**  
-> You can pre-populate certain fields before running the assessment.
-
 ## Required Information
 
 At a minimum, you’ll need these details:
@@ -24,6 +21,9 @@ At a minimum, you’ll need these details:
 - **Number of Employees**
 - **Annual Revenue**
 - **Annual Profits (EBITDA)**
+
+!!! note
+    You can pre-populate certain fields before running the assessment.
 
 ## Helpful to Have
 
