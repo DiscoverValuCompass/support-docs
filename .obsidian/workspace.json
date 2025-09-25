@@ -171,6 +171,10 @@
   },
   "active": "70c92af6a43af12d",
   "lastOpenFiles": [
+    "docs/downloadable-materials/index.md",
+    "docs/downloadable-materials",
+    "docs/materials/index.md",
+    "docs/materials",
     "docs/assessments/roadmap/understanding-report.md",
     "docs/assessments/roadmap/running-roadmap.md",
     "docs/assessments/roadmap/resources.md",
@@ -198,14 +202,11 @@
     "docs/grow/understanding-report.md",
     "docs/grow/running-grow.md",
     "docs/grow/resources.md",
-    "docs/grow/reference-materials.md",
-    "docs/grow/overview.md",
     "docs/grow",
     "docs/assessments/discover/grow",
     "docs/assessments/discover",
     "docs/dashboard",
     "docs/assessments/dashboard",
-    "docs/assessments",
     "docs/assets/images/blue_logo.png",
     "docs/assets/images/blue logo.png"
   ]

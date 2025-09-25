@@ -1,5 +1,5 @@
 ---
-title: Advisor Resources
+title: Downloadable Materials
 nav_order: 80
 has_children: true
 ---
