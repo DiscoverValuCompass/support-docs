@@ -1,5 +1,5 @@
 ---
-title: Sending Out the Discover Link
+title: Sending Out Discover
 parent: Dashboard
 nav_order: 30
 ---
