@@ -9,6 +9,8 @@ Before you begin a Discover Assessment, make sure you have the basic information
 
 It’s highly recommended that you complete the assessment _with the business owner or prospect_. Doing it together not only speeds things up but also creates trust and context for the results.
 
+{: .note } This is a test of a note. Did I show up. What do I look like?
+
 ## Required Information
 
 At a minimum, you’ll need these details:
