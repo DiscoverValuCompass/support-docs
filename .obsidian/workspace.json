@@ -169,8 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "4fbbd1f2dc084efe",
+  "active": "70c92af6a43af12d",
   "lastOpenFiles": [
+    "docs/assessments/dashboard/sending-discover-link.md",
+    "docs/assessments/dashboard/overview.md",
+    "docs/assessments/dashboard/index.md",
+    "docs/assessments/dashboard/getting-started.md",
+    "docs/assessments/dashboard/faqs.md",
+    "docs/assessments/dashboard",
+    "docs/assessments/index.md",
+    "docs/assessments",
     "docs/discover/overview.md",
     "docs/discover/getting-started.md",
     "docs/key-lessons/18-value-drivers.md",

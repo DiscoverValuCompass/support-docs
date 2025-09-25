@@ -1,6 +1,7 @@
 ---
 title: Dashboard
 nav_order: 10
+parent: Assessments
 has_children: true   # mark it as a section; children can come later
 ---
 
